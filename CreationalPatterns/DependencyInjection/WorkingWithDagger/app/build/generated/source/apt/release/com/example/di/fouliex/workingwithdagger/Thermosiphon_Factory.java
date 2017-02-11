@@ -22,7 +22,7 @@ public final class Thermosiphon_Factory implements Factory<Thermosiphon> {
   }
 
   /** Proxies {@link Thermosiphon#Thermosiphon(Heater)}. */
-  public static Thermosiphon newThermosiphon(Object heater) {
-    return new Thermosiphon((Heater) heater);
+  public static Thermosiphon newThermosiphon(Heater heater) {
+    return new Thermosiphon(heater);
   }
 }

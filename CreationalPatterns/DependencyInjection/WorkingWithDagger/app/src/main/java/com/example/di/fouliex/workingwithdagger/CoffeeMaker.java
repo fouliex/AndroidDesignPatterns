@@ -10,7 +10,7 @@ import dagger.Lazy;
  * Created by 212361198 on 2/10/17.
  */
 
-class CoffeeMaker {
+public class CoffeeMaker {
     private static final String TAG = CoffeeMaker.class.getName();
     private final Lazy<Heater> heater; // Create a possibly costly heater only when we use it.
     private final Pump pump;

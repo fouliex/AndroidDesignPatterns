@@ -3,15 +3,6 @@
 
     <item
         is-multidex="false"
-        jar="/Users/212361198/SourceCode/AndroidDesignPattern/CreationalPatterns/DependencyInjection/WorkingWithDagger/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
-        <dex dex="/Users/212361198/SourceCode/AndroidDesignPattern/CreationalPatterns/DependencyInjection/WorkingWithDagger/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.4.0_0edc930c834a4eb2984298759fe971b96da0ae71.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/Users/212361198/.gradle/caches/modules-2/files-2.1/com.google.dagger/dagger/2.9/75a739e59d7ede2f7f425f369955bdd1c2ac122b/dagger-2.9.jar"
         jumboMode="false"
         optimize="true"
@@ -30,30 +21,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/212361198/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="6975da39a7040257bd51d21a231b76c915872d38">
-        <dex dex="/Users/212361198/SourceCode/AndroidDesignPattern/CreationalPatterns/DependencyInjection/WorkingWithDagger/app/build/intermediates/pre-dexed/debug/javax.inject-1_555854e2cdf5d03c3050154829f42fefd754ca64.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/Users/212361198/SourceCode/AndroidDesignPattern/CreationalPatterns/DependencyInjection/WorkingWithDagger/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="24.0.2"
         sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
         <dex dex="/Users/212361198/SourceCode/AndroidDesignPattern/CreationalPatterns/DependencyInjection/WorkingWithDagger/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.4.0_bc675b818a2c7ba351f28e15865240938ed80f5d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/212361198/SourceCode/AndroidDesignPattern/CreationalPatterns/DependencyInjection/WorkingWithDagger/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
-        <dex dex="/Users/212361198/SourceCode/AndroidDesignPattern/CreationalPatterns/DependencyInjection/WorkingWithDagger/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.4.0_974375fae30b8aa3396c08ba80d1930337e75607.jar" />
     </item>
     <item
         is-multidex="false"
@@ -72,6 +45,33 @@
         revision="24.0.2"
         sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
         <dex dex="/Users/212361198/SourceCode/AndroidDesignPattern/CreationalPatterns/DependencyInjection/WorkingWithDagger/app/build/intermediates/pre-dexed/debug/support-annotations-23.4.0_b46e1065b7e66e86c4a3f2cfdc33fba2274acb8f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/212361198/SourceCode/AndroidDesignPattern/CreationalPatterns/DependencyInjection/WorkingWithDagger/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="/Users/212361198/SourceCode/AndroidDesignPattern/CreationalPatterns/DependencyInjection/WorkingWithDagger/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.4.0_0edc930c834a4eb2984298759fe971b96da0ae71.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/212361198/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/Users/212361198/SourceCode/AndroidDesignPattern/CreationalPatterns/DependencyInjection/WorkingWithDagger/app/build/intermediates/pre-dexed/debug/javax.inject-1_555854e2cdf5d03c3050154829f42fefd754ca64.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/212361198/SourceCode/AndroidDesignPattern/CreationalPatterns/DependencyInjection/WorkingWithDagger/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/Users/212361198/SourceCode/AndroidDesignPattern/CreationalPatterns/DependencyInjection/WorkingWithDagger/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.4.0_974375fae30b8aa3396c08ba80d1930337e75607.jar" />
     </item>
 
 </items>

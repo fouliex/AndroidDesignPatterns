@@ -29,7 +29,7 @@ public final class CoffeeMaker_Factory implements Factory<CoffeeMaker> {
   }
 
   /** Proxies {@link CoffeeMaker#CoffeeMaker(Lazy, Pump)}. */
-  public static CoffeeMaker newCoffeeMaker(Object heater, Object pump) {
-    return new CoffeeMaker((Lazy<Heater>) heater, (Pump) pump);
+  public static CoffeeMaker newCoffeeMaker(Lazy<Heater> heater, Pump pump) {
+    return new CoffeeMaker(heater, pump);
   }
 }

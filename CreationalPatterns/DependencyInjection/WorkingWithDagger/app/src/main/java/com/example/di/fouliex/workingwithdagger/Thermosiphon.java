@@ -6,7 +6,7 @@ import javax.inject.Inject;
  * Created by 212361198 on 2/10/17.
  */
 
-class Thermosiphon implements Pump {
+public class Thermosiphon implements Pump {
     private final Heater heater;
 
     @Inject

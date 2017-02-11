@@ -4,6 +4,11 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 
+import com.example.di.fouliex.workingwithdagger.di.component.Coffee;
+import com.example.di.fouliex.workingwithdagger.di.component.DaggerCoffee;
+import com.example.di.fouliex.workingwithdagger.di.component.DaggerTea;
+import com.example.di.fouliex.workingwithdagger.di.component.Tea;
+
 public class MainActivity extends AppCompatActivity {
 
     private static final String TAG = MainActivity.class.getName();
@@ -13,9 +18,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        
-        Coffee coffee = DaggerCoffee.builder().build();
-        coffee.maker().brew();
+
+
+       Coffee coffee = DaggerCoffee.builder().build();
+       coffee.maker().brew();
 
 
         Tea tea = DaggerTea.builder().build();

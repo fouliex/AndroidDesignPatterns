@@ -25,9 +25,4 @@ public final class StarbuckTeapot_Factory implements Factory<StarbuckTeapot> {
       Provider<Heater> heaterProvider, Provider<Drink> drinkProvider) {
     return new StarbuckTeapot_Factory(heaterProvider, drinkProvider);
   }
-
-  /** Proxies {@link StarbuckTeapot#StarbuckTeapot(Heater, Drink)}. */
-  public static StarbuckTeapot newStarbuckTeapot(Object heater, Drink drink) {
-    return new StarbuckTeapot((Heater) heater, drink);
-  }
 }
