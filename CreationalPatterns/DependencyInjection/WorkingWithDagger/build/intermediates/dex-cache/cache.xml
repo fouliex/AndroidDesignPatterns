@@ -3,12 +3,39 @@
 
     <item
         is-multidex="false"
+        jar="C:\SourceCode\AndroidDesignPatterns\CreationalPatterns\DependencyInjection\WorkingWithDagger\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="C:\SourceCode\AndroidDesignPatterns\CreationalPatterns\DependencyInjection\WorkingWithDagger\app\build\intermediates\pre-dexed\debug\internal_impl-23.4.0_e3917db9f38b22ec4eef75334244f6db3e816626.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\SourceCode\AndroidDesignPatterns\CreationalPatterns\DependencyInjection\WorkingWithDagger\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="C:\SourceCode\AndroidDesignPatterns\CreationalPatterns\DependencyInjection\WorkingWithDagger\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.4.0_fc815a14d9b6e37eee02825adc25ac2f5182c466.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\SourceCode\AndroidDesignPatterns\CreationalPatterns\DependencyInjection\WorkingWithDagger\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="24.0.2"
         sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
         <dex dex="C:\SourceCode\AndroidDesignPatterns\CreationalPatterns\DependencyInjection\WorkingWithDagger\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.4.0_4b3f3f0a6342e2c84d0446f67b02dfbe8a5e3c16.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\fouli\.gradle\caches\modules-2\files-2.1\com.google.dagger\dagger\2.9\75a739e59d7ede2f7f425f369955bdd1c2ac122b\dagger-2.9.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="75a739e59d7ede2f7f425f369955bdd1c2ac122b">
+        <dex dex="C:\SourceCode\AndroidDesignPatterns\CreationalPatterns\DependencyInjection\WorkingWithDagger\app\build\intermediates\pre-dexed\debug\dagger-2.9_e6078e2d5ae6ad2a3d64e621e3f7cdee0450d423.jar" />
     </item>
     <item
         is-multidex="false"
@@ -45,33 +72,6 @@
         revision="24.0.2"
         sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
         <dex dex="C:\SourceCode\AndroidDesignPatterns\CreationalPatterns\DependencyInjection\WorkingWithDagger\app\build\intermediates\pre-dexed\debug\support-annotations-23.4.0_3d90236ac5cbb9f0adb76f10ec48e699ca01ce58.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\SourceCode\AndroidDesignPatterns\CreationalPatterns\DependencyInjection\WorkingWithDagger\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
-        <dex dex="C:\SourceCode\AndroidDesignPatterns\CreationalPatterns\DependencyInjection\WorkingWithDagger\app\build\intermediates\pre-dexed\debug\internal_impl-23.4.0_e3917db9f38b22ec4eef75334244f6db3e816626.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\SourceCode\AndroidDesignPatterns\CreationalPatterns\DependencyInjection\WorkingWithDagger\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
-        <dex dex="C:\SourceCode\AndroidDesignPatterns\CreationalPatterns\DependencyInjection\WorkingWithDagger\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.4.0_fc815a14d9b6e37eee02825adc25ac2f5182c466.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\fouli\.gradle\caches\modules-2\files-2.1\com.google.dagger\dagger\2.9\75a739e59d7ede2f7f425f369955bdd1c2ac122b\dagger-2.9.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="75a739e59d7ede2f7f425f369955bdd1c2ac122b">
-        <dex dex="C:\SourceCode\AndroidDesignPatterns\CreationalPatterns\DependencyInjection\WorkingWithDagger\app\build\intermediates\pre-dexed\debug\dagger-2.9_e6078e2d5ae6ad2a3d64e621e3f7cdee0450d423.jar" />
     </item>
 
 </items>
