@@ -13,10 +13,17 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+        
+        Coffee coffee = DaggerCoffee.builder().build();
+        coffee.maker().brew();
+
+
         Tea tea = DaggerTea.builder().build();
         Teapot teapot = tea.getTeapot();
         Drink drink  = teapot.brew();
         Log.d(getClass().getName(),"Our drink is flavored " + drink.getFlavor());
+
+
         setContentView(R.layout.activity_main);
     }
 }
