@@ -2,6 +2,8 @@ package com.example.di.fouliex.workingwithdagger;
 
 import android.util.Log;
 
+import com.example.di.fouliex.workingwithdagger.service.api.Heater;
+
 import javax.inject.Inject;
 
 import dagger.Lazy;

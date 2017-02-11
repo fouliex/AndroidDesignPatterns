@@ -1,7 +1,7 @@
 package com.example.di.fouliex.workingwithdagger.di.module;
 
 import com.example.di.fouliex.workingwithdagger.ElectricHeater;
-import com.example.di.fouliex.workingwithdagger.SafewayEarlGreyDrink;
+import com.example.di.fouliex.workingwithdagger.service.impl.SafewayEarlGreyDrink;
 import com.example.di.fouliex.workingwithdagger.StarbuckTeapot;
 import com.example.di.fouliex.workingwithdagger.Teapot;
 

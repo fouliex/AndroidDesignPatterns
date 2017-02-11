@@ -1,5 +1,7 @@
 package com.example.di.fouliex.workingwithdagger;
 
+import com.example.di.fouliex.workingwithdagger.service.api.Heater;
+
 import javax.inject.Inject;
 
 /**

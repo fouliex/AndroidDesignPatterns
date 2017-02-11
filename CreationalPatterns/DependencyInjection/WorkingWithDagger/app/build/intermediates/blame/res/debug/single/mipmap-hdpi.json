@@ -1,6 +1,6 @@
 [
     {
-        "merged": "/Users/212361198/SourceCode/AndroidDesignPattern/CreationalPatterns/DependencyInjection/WorkingWithDagger/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher.png",
-        "source": "/Users/212361198/SourceCode/AndroidDesignPattern/CreationalPatterns/DependencyInjection/WorkingWithDagger/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+        "merged": "C:\\SourceCode\\AndroidDesignPatterns\\CreationalPatterns\\DependencyInjection\\WorkingWithDagger\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher.png",
+        "source": "C:\\SourceCode\\AndroidDesignPatterns\\CreationalPatterns\\DependencyInjection\\WorkingWithDagger\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     }
 ]

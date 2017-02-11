@@ -194,7 +194,7 @@ document.getElementById(id+'Link').style.display = 'none';
 <body>
 <h1>Lint Report</h1>
 <div class="titleSeparator"></div>
-Check performed at Fri Feb 10 18:35:46 PST 2017.<br/>
+Check performed at Sat Feb 11 10:51:59 PST 2017.<br/>
 0 errors and 4 warnings found:<br/><br/>
 <table class="overview">
 <tr><td></td><td class="categoryColumn"><a href="#Correctness">Correctness</a>
@@ -234,7 +234,7 @@ Check performed at Fri Feb 10 18:35:46 PST 2017.<br/>
 <span class="lineno">   5</span>     defaultConfig {
 <span class="lineno">   6</span>         applicationId "com.example.di.fouliex.workingwithdagger"
 <span class="lineno">   7</span>         minSdkVersion 15
-<span class="lineno">   8</span>         <span class="errorspan">targetSdkVersion 23</span>
+<span class="lineno">   8</span>         <span class="errorspan">targetSdkVersion 23</span>
 <span class="lineno">   9</span>         versionCode 1
 <span class="lineno">  10</span>         versionName "1.0"
 </pre>
@@ -257,11 +257,11 @@ To fix this issue, set the <code>targetSdkVersion</code> to the highest availabl
 <div class="id"><a href="#" title="Return to top">GradleDependency: Obsolete Gradle Dependency</a><div class="issueSeparator"></div>
 </div>
 <div class="warningslist">
-<span class="location"><a href="../../build.gradle">../../build.gradle</a>:28</span>: <span class="message">A newer version of com.android.support:appcompat-v7 than 23.4.0 is available: 25.1.0</span><br /><pre class="errorlines">
+<span class="location"><a href="../../build.gradle">../../build.gradle</a>:28</span>: <span class="message">A newer version of com.android.support:appcompat-v7 than 23.4.0 is available: 25.1.1</span><br /><pre class="errorlines">
 <span class="lineno">  25</span>     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
 <span class="lineno">  26</span>         exclude group: 'com.android.support', module: 'support-annotations'
 <span class="lineno">  27</span>     })
-<span class="lineno">  28</span>     <span class="errorspan">compile 'com.android.support:appcompat-v7:23.4.0'</span>
+<span class="lineno">  28</span>     <span class="errorspan">compile 'com.android.support:appcompat-v7:23.4.0'</span>
 <span class="lineno">  29</span>     testCompile 'junit:junit:4.12'
 <span class="lineno">  30</span> }
 </pre>
@@ -289,7 +289,7 @@ This detector looks for usages of libraries where the version you are using is n
 <span class="lineno">   2</span> &lt;manifest xmlns:android="http://schemas.android.com/apk/res/android"
 <span class="lineno">   3</span>     package="com.example.di.fouliex.workingwithdagger">
 <span class="lineno">   4</span> 
-<span class="lineno">   5</span>     <span class="errorspan">&lt;application</span>
+<span class="lineno">   5</span>     <span class="errorspan">&lt;application</span>
 <span class="lineno">   6</span>         android:allowBackup="true"
 <span class="lineno">   7</span>         android:icon="@mipmap/ic_launcher"
 </pre>
@@ -329,7 +329,7 @@ If not set to false, and if targeting API 23 or later, lint will also warn that 
 <span class="lineno">   2</span> &lt;manifest xmlns:android="http://schemas.android.com/apk/res/android"
 <span class="lineno">   3</span>     package="com.example.di.fouliex.workingwithdagger">
 <span class="lineno">   4</span> 
-<span class="lineno">   5</span>     <span class="errorspan">&lt;application</span>
+<span class="lineno">   5</span>     <span class="errorspan">&lt;application</span>
 <span class="lineno">   6</span>         android:allowBackup="true"
 <span class="lineno">   7</span>         android:icon="@mipmap/ic_launcher"
 </pre>
