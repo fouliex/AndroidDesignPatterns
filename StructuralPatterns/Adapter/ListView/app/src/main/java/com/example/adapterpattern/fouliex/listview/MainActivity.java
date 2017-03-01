@@ -1,13 +1,16 @@
 package com.example.adapterpattern.fouliex.listview;
 
-import android.content.DialogInterface;
+import android.os.Bundle;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
+/**
+ *MainActivity  shows  the main layout where a button is located in the center of the
+ * screen. When clicking the button a pop up Listview is shown.
+ */
 public class MainActivity extends AppCompatActivity {
     AlertDialog alertDialogStores;
 
@@ -32,6 +35,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void showPopUp() {
+
+        //Sample items
         ObjectItem[] objectItemData = new ObjectItem[20];
         objectItemData[0] = new ObjectItem(91, "Mercury");
         objectItemData[1] = new ObjectItem(92, "Watson");
@@ -54,12 +59,15 @@ public class MainActivity extends AppCompatActivity {
         objectItemData[18] = new ObjectItem(109, "Master Siomai 2");
         objectItemData[19] = new ObjectItem(110, "Mang Inasal 2");
 
+        // The adapter instance
         ArrayAdapter adapter = new ArrayAdapterItem(this,R.layout.list_view_row_item,objectItemData);
 
+        //Create a new ListView and setting the adapter and item click listener
         ListView listView = new ListView(this);
         listView.setAdapter(adapter);
         listView.setOnItemClickListener(new OnItemClickListenerListViewItem());
 
+        //pup the ListView into aw pop up
         alertDialogStores = new AlertDialog.Builder(MainActivity.this)
                 .setView(listView)
                 .setTitle("Stores")
